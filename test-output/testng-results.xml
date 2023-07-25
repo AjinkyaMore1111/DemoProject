@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-25T19:00:39 IST" name="Default suite" finished-at="2023-07-25T19:00:43 IST" duration-ms="3215">
+  <suite started-at="2023-07-25T19:58:23 IST" name="Default suite" finished-at="2023-07-25T19:58:25 IST" duration-ms="2066">
     <groups>
     </groups>
-    <test started-at="2023-07-25T19:00:39 IST" name="Default test" finished-at="2023-07-25T19:00:43 IST" duration-ms="3215">
+    <test started-at="2023-07-25T19:58:23 IST" name="Default test" finished-at="2023-07-25T19:58:25 IST" duration-ms="2066">
       <class name="CICDTestMaven.CICDTest.cicdTest">
-        <test-method signature="cicd()[pri:0, instance:CICDTestMaven.CICDTest.cicdTest@4e096385]" started-at="2023-07-25T19:00:40 IST" name="cicd" finished-at="2023-07-25T19:00:43 IST" duration-ms="3166" status="PASS">
+        <test-method signature="cicd()[pri:0, instance:CICDTestMaven.CICDTest.cicdTest@4e096385]" started-at="2023-07-25T19:58:23 IST" name="cicd" finished-at="2023-07-25T19:58:25 IST" duration-ms="2038" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cicd -->
