@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-25T13:27:18 IST" name="Surefire suite" finished-at="2023-07-25T13:27:20 IST" duration-ms="1975">
+    <groups>
+    </groups>
+    <test started-at="2023-07-25T13:27:18 IST" name="Surefire test" finished-at="2023-07-25T13:27:20 IST" duration-ms="1975">
+      <class name="CICDTestMaven.CICDTest.cicdTest">
+        <test-method signature="cicd()[pri:0, instance:CICDTestMaven.CICDTest.cicdTest@6a79c292]" started-at="2023-07-25T13:27:18 IST" name="cicd" finished-at="2023-07-25T13:27:20 IST" duration-ms="1951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cicd -->
+      </class> <!-- CICDTestMaven.CICDTest.cicdTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
