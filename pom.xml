@@ -16,7 +16,12 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
+    
+
   </properties>
+
+
+
 
   <dependencies>
     <dependency>
@@ -97,10 +102,10 @@
   <build>
     <plugins>
 		
-	 <plugin>
+	 <!--<plugin>
           <artifactId>maven-clean-plugin</artifactId>
           <version>3.1.0</version>
-        </plugin>
+        </plugin>-->
         
    
      
@@ -112,23 +117,14 @@
 					<version>3.1.0</version>
 				</plugin>-->
        
-       
+     <!--  
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.0.2</version>
-        </plugin>
-       <plugin>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.8.0</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.22.1</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-jar-plugin</artifactId>
-          <version>3.0.2</version>
-        </plugin>
+        </plugin>-->
+     
+     
+      
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
           <version>2.5.2</version>
@@ -158,33 +154,34 @@
           <version>3.0.0</version>
         </plugin>
 
+	<!--	<plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0-M5</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+		-->
+		
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-jar-plugin</artifactId>
+			<version>3.0.2</version>
+			
+		</plugin>
 		
 		
 		
-		<!--<plugin>
+		<!--
+		<plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.8.1</version>
-                    <configuration>
-                        <annotationProcessorPaths>
-                            <path>
-                                <groupId>org.projectlombok</groupId>
-                                <artifactId>lombok</artifactId>
-                                <version>1.18.24</version>
-                            </path>
-                        </annotationProcessorPaths>
-                      </configuration>
+                    <version>3.8.0</version>
+                  
                 </plugin>-->
-		
-		
-		
-		
-
-		
-		
-		
-		
-	
-      </plugins>
+		 </plugins>
   </build>
 </project>
